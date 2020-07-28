@@ -1,0 +1,59 @@
+.myList {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+    li {
+        background-color: #fff;
+        border-radius: 3rem;
+        margin: 0 2rem;
+        padding: 1rem 0;
+        text-align: center;
+        width: 10rem;
+    }
+}
+
+.myHeader {
+    background-color: #FAE8EE;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    color: #C42828;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h2{
+        color: #707070;
+    }
+    .category{
+        background-color: #FAE8EE;
+        margin: 1rem;
+        border-radius: 1rem;
+        color: #C42828;
+        display: inline-block;
+        padding: .5rem 1rem;
+    }
+    .stats{
+        position: absolute;
+        bottom: 1rem;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 80%;
+    }
+    .likeAndDislike {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3rem 0 0 2rem;
+        p {
+            position: relative;
+            right: 2rem;
+        }
+    }
+    p{
+        color: #707070;
+    }
+}
