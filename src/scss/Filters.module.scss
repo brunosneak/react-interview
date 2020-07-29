@@ -1,0 +1,24 @@
+.myHeader {
+    background-color: #FAE8EE;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    color: #C42828;
+    .bgRed{
+        background-color: red;
+    }
+    .myList {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        li {
+            background-color: #fff;
+            border-radius: 3rem;
+            margin: 0 2rem;
+            padding: 1rem 0;
+            text-align: center;
+            width: 10rem;
+        }
+    }
+}
